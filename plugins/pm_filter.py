@@ -405,11 +405,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [ [
             
-            InlineKeyboardButton('JOIN OUR COMMUNITY', url='https://t.me/filmcognito')
+            InlineKeyboardButton('‼️ JOIN OUR COMMUNITY ‼️', url='https://t.me/filmcognito')
         ], [
-            InlineKeyboardButton('JOIN FOR MOVIES', url='https://t.me/filmcognitomoviesin')  
+            InlineKeyboardButton('📺 JOIN FOR MOVIES 📺', url='https://t.me/filmcognitomoviesin')  
         ], [
-            InlineKeyboardButton('JOIN FOR LIVE STREAMS ',url='https://t.me/filmcognitolives1')
+            InlineKeyboardButton('🕹️ JOIN FOR LIVE STREAMS 🕹️ ',url='https://t.me/filmcognitolives1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
